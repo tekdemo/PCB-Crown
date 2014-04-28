@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="5" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="5" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -40,7 +40,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -444,6 +444,8 @@ TERMINATION
 <text x="25.4" y="43.18" size="0.889" layer="22" font="vector" ratio="15" rot="MR0">4xNiCAD</text>
 <text x="25.4" y="41.91" size="0.889" layer="22" font="vector" ratio="15" rot="MR0">3x Alkaline</text>
 <text x="25.4" y="44.45" size="0.889" layer="22" font="vector" ratio="15" rot="MR0">4xNimH</text>
+<dimension x1="0" y1="50.8" x2="14.224" y2="30.48" x3="-10.16" y3="40.64" textsize="1.778" textratio="15" layer="47" dtype="vertical"/>
+<dimension x1="0.254" y1="50.8" x2="14.224" y2="30.48" x3="7.239" y3="61.468" textsize="1.778" textratio="15" layer="47" dtype="horizontal"/>
 </plain>
 <libraries>
 <library name="pcb_crown">
