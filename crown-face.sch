@@ -2397,6 +2397,9 @@ Pogo pins- HW-11044</description>
 <wire x1="226.06" y1="63.5" x2="218.44" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="SMD2" gate="G$1" pin="DIN"/>
 <wire x1="218.44" y1="63.5" x2="200.66" y2="71.12" width="0.2032" layer="91"/>
+<pinref part="SKIP-SMD2" gate="1" pin="2"/>
+<wire x1="195.58" y1="53.34" x2="195.58" y2="66.04" width="0.2032" layer="91"/>
+<wire x1="195.58" y1="66.04" x2="200.66" y2="71.12" width="0.2032" layer="91"/>
 </segment>
 </net>
 <net name="A0" class="0">

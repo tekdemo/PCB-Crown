@@ -2009,6 +2009,9 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <wire x1="228.6" y1="119.38" x2="220.98" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="SMD2" gate="G$1" pin="DIN"/>
 <wire x1="220.98" y1="119.38" x2="203.2" y2="127" width="0.2032" layer="91"/>
+<pinref part="SKIP-SMD2" gate="1" pin="2"/>
+<wire x1="198.12" y1="109.22" x2="198.12" y2="121.92" width="0.2032" layer="91"/>
+<wire x1="198.12" y1="121.92" x2="203.2" y2="127" width="0.2032" layer="91"/>
 </segment>
 </net>
 <net name="A0" class="0">
