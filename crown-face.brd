@@ -8,22 +8,22 @@
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="5" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -38,13 +38,13 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -318,34 +318,6 @@
 <wire x1="110.236" y1="56.896" x2="107.95" y2="66.04" width="0.254" layer="51" curve="-10"/>
 <wire x1="86.868" y1="50.8" x2="99.06" y2="66.04" width="0.254" layer="51" curve="64.010766"/>
 <wire x1="99.06" y1="50.546" x2="99.06" y2="69.85" width="0.254" layer="22"/>
-<polygon width="0.254" layer="29">
-<vertex x="59.944" y="50.8"/>
-<vertex x="60.198" y="50.546" curve="45.361118"/>
-<vertex x="84.328" y="40.64" curve="63.289464"/>
-<vertex x="92.456" y="45.72" curve="16.691422"/>
-<vertex x="100.33" y="66.04"/>
-<vertex x="98.806" y="66.04"/>
-<vertex x="95.504" y="57.658"/>
-<vertex x="91.186" y="53.848"/>
-<vertex x="86.868" y="51.562"/>
-<vertex x="84.074" y="52.07"/>
-<vertex x="80.772" y="54.864"/>
-<vertex x="79.248" y="57.912"/>
-<vertex x="78.74" y="58.674"/>
-<vertex x="69.342" y="58.674"/>
-<vertex x="68.326" y="56.134"/>
-<vertex x="65.786" y="53.086"/>
-<vertex x="62.992" y="51.562"/>
-</polygon>
-<polygon width="0.254" layer="29">
-<vertex x="117.348" y="40.64" curve="-20"/>
-<vertex x="114.3" y="44.958" curve="-16.691422"/>
-<vertex x="106.68" y="66.04"/>
-<vertex x="109.22" y="66.04"/>
-<vertex x="110.744" y="57.404"/>
-<vertex x="113.284" y="53.34"/>
-<vertex x="118.11" y="50.8"/>
-</polygon>
 <wire x1="121.666" y1="16.51" x2="140.208" y2="16.51" width="0.254" layer="51"/>
 <wire x1="149.2504" y1="71.882" x2="149.2504" y2="-13.462" width="0.2032" layer="51"/>
 <wire x1="120.396" y1="50.8" x2="122.428" y2="0" width="0.254" layer="51"/>
@@ -361,19 +333,6 @@
 <wire x1="159.512" y1="58.42" x2="168.402" y2="58.42" width="0.2032" layer="51"/>
 <wire x1="177.8" y1="50.8" x2="168.402" y2="58.42" width="0.254" layer="51" curve="-73.057711"/>
 <wire x1="149.606" y1="50.8" x2="159.512" y2="58.42" width="0.254" layer="51" curve="64.010766"/>
-<wire x1="178.054" y1="50.8" x2="177.8" y2="50.546" width="0.254" layer="29"/>
-<polygon width="0.254" layer="29">
-<vertex x="120.65" y="40.894"/>
-<vertex x="121.158" y="40.386" curve="41.708916"/>
-<vertex x="134.366" y="30.48" curve="67.147049"/>
-<vertex x="178.054" y="50.8"/>
-<vertex x="168.402" y="58.42"/>
-<vertex x="159.766" y="58.42"/>
-<vertex x="149.352" y="51.308"/>
-<vertex x="138.938" y="58.42"/>
-<vertex x="130.048" y="58.42"/>
-<vertex x="120.142" y="50.8"/>
-</polygon>
 <polygon width="0.127" layer="29">
 <vertex x="38.735" y="30.734"/>
 <vertex x="38.735" y="42.164"/>
@@ -587,34 +546,6 @@
 <wire x1="-63.246" y1="50.8" x2="-56.134" y2="56.896" width="0.254" layer="51" curve="60"/>
 <wire x1="-56.134" y1="56.896" x2="-53.848" y2="66.04" width="0.254" layer="51" curve="10"/>
 <wire x1="-32.766" y1="50.8" x2="-44.958" y2="66.04" width="0.254" layer="51" curve="-64.010766"/>
-<polygon width="0.254" layer="29">
-<vertex x="-5.842" y="50.8"/>
-<vertex x="-6.096" y="50.546" curve="-45.361118"/>
-<vertex x="-30.226" y="40.64" curve="-63.289464"/>
-<vertex x="-38.354" y="45.72" curve="-16.691422"/>
-<vertex x="-46.228" y="66.04"/>
-<vertex x="-44.704" y="66.04"/>
-<vertex x="-41.402" y="57.658"/>
-<vertex x="-37.084" y="53.848"/>
-<vertex x="-32.766" y="51.562"/>
-<vertex x="-29.972" y="52.07"/>
-<vertex x="-26.67" y="54.864"/>
-<vertex x="-25.146" y="57.912"/>
-<vertex x="-24.638" y="58.674"/>
-<vertex x="-15.24" y="58.674"/>
-<vertex x="-14.224" y="56.134"/>
-<vertex x="-11.684" y="53.086"/>
-<vertex x="-8.89" y="51.562"/>
-</polygon>
-<polygon width="0.254" layer="29">
-<vertex x="-63.246" y="40.64" curve="20"/>
-<vertex x="-60.198" y="44.958" curve="16.691422"/>
-<vertex x="-52.578" y="66.04"/>
-<vertex x="-55.118" y="66.04"/>
-<vertex x="-56.642" y="57.404"/>
-<vertex x="-59.182" y="53.34"/>
-<vertex x="-64.008" y="50.8"/>
-</polygon>
 <wire x1="-67.564" y1="16.51" x2="-86.106" y2="16.51" width="0.254" layer="51"/>
 <wire x1="-95.1484" y1="71.882" x2="-95.1484" y2="-13.462" width="0.2032" layer="51"/>
 <wire x1="-66.294" y1="50.8" x2="-68.326" y2="0" width="0.254" layer="51"/>
@@ -630,20 +561,6 @@
 <wire x1="-123.698" y1="50.8" x2="-114.3" y2="58.42" width="0.254" layer="51" curve="73.057711"/>
 <wire x1="-95.504" y1="50.8" x2="-105.41" y2="58.42" width="0.254" layer="51" curve="-64.010766"/>
 <wire x1="-123.952" y1="50.8" x2="-123.698" y2="50.546" width="0.254" layer="30"/>
-<polygon width="0.254" layer="29">
-<vertex x="-66.548" y="40.894"/>
-<vertex x="-67.056" y="40.386" curve="-41.708916"/>
-<vertex x="-80.264" y="30.48" curve="-67.147049"/>
-<vertex x="-123.952" y="50.8"/>
-<vertex x="-114.3" y="58.42"/>
-<vertex x="-105.664" y="58.42"/>
-<vertex x="-95.25" y="51.308"/>
-<vertex x="-84.836" y="58.42"/>
-<vertex x="-75.946" y="58.42"/>
-<vertex x="-66.04" y="50.8"/>
-</polygon>
-<rectangle x1="293.878" y1="-12.192" x2="296.164" y2="-0.508" layer="29"/>
-<rectangle x1="300.736" y1="-12.192" x2="303.022" y2="-0.508" layer="29"/>
 <text x="35.052" y="35.56" size="1.778" layer="26" font="vector" ratio="15" rot="MR45">SMDUINO! 
 </text>
 <text x="36.322" y="36.576" size="0.762" layer="26" font="vector" ratio="15" rot="MR45">(ONLY ONE PLEASE)</text>
