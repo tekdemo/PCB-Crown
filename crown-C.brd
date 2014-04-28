@@ -22,7 +22,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -1322,14 +1322,15 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="19.812" y1="48.398" x2="20.066" y2="48.398" width="0.2032" layer="16"/>
 <polygon width="0.2032" layer="1" isolate="0.254" orphans="yes">
 <vertex x="0.254" y="15.24"/>
-<vertex x="0" y="53.34"/>
-<vertex x="7.62" y="67.31"/>
-<vertex x="17.272" y="67.056"/>
-<vertex x="19.558" y="74.93"/>
-<vertex x="38.1" y="74.93"/>
-<vertex x="40.64" y="67.31"/>
-<vertex x="51.054" y="67.31"/>
-<vertex x="51.054" y="58.166"/>
+<vertex x="0.254" y="50.8"/>
+<vertex x="9.906" y="58.42"/>
+<vertex x="18.796" y="58.674"/>
+<vertex x="26.67" y="50.8"/>
+<vertex x="34.544" y="55.88"/>
+<vertex x="39.37" y="66.294"/>
+<vertex x="48.26" y="66.294"/>
+<vertex x="50.292" y="58.166"/>
+<vertex x="54.102" y="52.578"/>
 <vertex x="58.42" y="50.8"/>
 <vertex x="58.42" y="15.24"/>
 </polygon>
