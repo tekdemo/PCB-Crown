@@ -3,7 +3,7 @@ PCB Crown
 =========
 A fun experiment in 3D circuits and wearables, designed as a gift to Laen. It was unveiled at the 2014 Maker Faire Bring-a-hack party. 
 
-![ ][images/2014-05-18 19.59.02.jpg]
+![ ](images/2014-05-18 19.59.02.jpg)
 
 
 About The Crown
@@ -17,7 +17,8 @@ powered by a [SMDuino module](https://code.google.com/p/smduino/), with optional
 
 Each module also has a tiny circuit that acts as a SMD equivilent to a breadboard, suitable for future additions of accellerometers, gyros, or light sensors. 
 Here's the crown glowing with the full might of the NeoPixels running Adafruit's test patterns. 
-![  ][images/2014-05-18 19.59.02.jpg]
+
+![  ](images/2014-05-18 19.59.02.jpg)
 
 
 WARNING!
