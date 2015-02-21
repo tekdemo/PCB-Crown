@@ -28,7 +28,7 @@ if bumped, jostled, or left alone quietly in a dark room. Several part footprint
 No individual panel will work at all without the adjacent panel, requires at least 1 cut trace, and the LEDs will not work properly without at 
 least half the design completed and working. 
 
-Full documentation, build notes, and additional details are posted at [tekdemo.github.io/](http://tekdemo.github.io). This includes things not to do, as discovered
+Full documentation, build notes, and additional details are posted at [tekdemo.github.io/](https://tekdemo.github.io/pcb-crown/). This includes things not to do, as discovered
 in the course of designing and building the crown.
 
 License
